@@ -2,15 +2,22 @@
     margin:0;
     padding: 0;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 ul{
     list-style: none;
 }
 a {
-    color: $white;
     text-decoration: none;
 }
 .clearfix:after {
     display: block;
     content: "";
     clear: both;
+}
+.wrapper div{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
 }
