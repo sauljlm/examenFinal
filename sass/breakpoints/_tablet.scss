@@ -1,3 +1,28 @@
 @media (min-width: $breakpoint-md){
-    
+    .containerGallery{
+        .up::after {
+            content: url(../img/icon2.png); ;
+            position: absolute;
+            top: 5%;
+            left: 95%;
+            width: 0%;
+            display: block;
+        }
+        .dow::after {
+            content: url(../img/icon4.png); ;
+            position: absolute;
+            top: 70%;
+            left: 97%;
+            width: 0%;
+            display: block;
+        }
+        .up::before {
+            content: url(../img/icon3.png); ;
+            position: absolute;
+            top: 50%;
+            right: 118%;
+            width: 0%;
+            display: block;
+        }
+    }
 }    

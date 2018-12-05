@@ -49,11 +49,37 @@ a {
   color: #aeadae;
   font-size: 0.8rem;
   padding-top: 5%;
-  padding-bottom: 10%; }
+  padding-bottom: 10%;
+  float: left;
+  max-width: 50%; }
+.section2 .icon1 {
+  padding-left: 10%;
+  padding-top: 3%; }
 
 .containerGallery img {
   float: left;
   width: 50%; }
+.containerGallery .up::after {
+  content: url(../img/icon2.png);
+  position: absolute;
+  top: 55%;
+  left: 95%;
+  width: 0%;
+  display: block; }
+.containerGallery .dow::after {
+  content: url(../img/icon4.png);
+  position: absolute;
+  top: 115%;
+  left: 97%;
+  width: 0%;
+  display: block; }
+.containerGallery .up::before {
+  content: url(../img/icon3.png);
+  position: absolute;
+  top: 50%;
+  right: 118%;
+  width: 0%;
+  display: block; }
 
 .footer {
   margin-top: 70%;
@@ -88,5 +114,34 @@ a {
     width: 1px;
     height: 85px;
     background-color: black; }
+
+@media (min-width: 768px) {
+  .containerGallery .up::after {
+    content: url(../img/icon2.png);
+    position: absolute;
+    top: 5%;
+    left: 95%;
+    width: 0%;
+    display: block; }
+  .containerGallery .dow::after {
+    content: url(../img/icon4.png);
+    position: absolute;
+    top: 70%;
+    left: 97%;
+    width: 0%;
+    display: block; }
+  .containerGallery .up::before {
+    content: url(../img/icon3.png);
+    position: absolute;
+    top: 50%;
+    right: 118%;
+    width: 0%;
+    display: block; } }
+@media (min-width: 1400px) {
+  .footer {
+    margin-top: 55%; }
+
+  .gallery {
+    position: absolute; } }
 
 /*# sourceMappingURL=styles.css.map */
