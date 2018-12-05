@@ -9,7 +9,8 @@ ul {
   list-style: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
 
 .clearfix:after {
   display: block;
@@ -33,7 +34,9 @@ a {
   float: left; }
 
 #menu {
-  display: none; }
+  display: none;
+  position: absolute;
+  left: 70%; }
 
 .hamburguer img {
   float: right;
